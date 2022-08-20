@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+input{
+    border-radius: 0.6rem;
+    border: none!important;
+    outline: none;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    width: 30px;
+    border: solid;
+    transition: all 2s;
+}
+
+.searchdiv{
+    position: relative;
+    border-radius: 0.6rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.fa-microphone{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.7rem;
+    z-index: 2;
+    color: red;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    left: 0.5rem;
+    top: 0.7rem;
+    cursor: pointer;
+    color: yellowgreen;
+}
+.activewidth{
+   
+    width:300px;
+    
+}
+.activeblock{
+    display: none;
+}
+::placeholder{
+    color: blue;
+    padding-left: 2rem;
+}
+    
